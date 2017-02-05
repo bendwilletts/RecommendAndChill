@@ -1,0 +1,169 @@
+body{
+	background-color: rgb(250,250,250);
+	overflow-x: hidden;
+}
+
+div{
+	transition: all 0.5s ease;
+}
+
+#headerDiv {
+	background-color: rgb(28,122,193);
+	width: 100%;
+	height: 50vh;
+	padding: 80px;
+}
+#headerDiv h1{
+	font-family: 'Ek Mukta', sans-serif;
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 69px;
+	color: white;
+}
+
+#headerDiv input{
+	height: 50px;
+}
+#searchButton{
+	height: 50px;
+}
+
+.twitter-typeahead{
+     width: 97%;
+}
+.tt-dropdown-menu{
+    width: 102%;
+}
+.jumbotron{
+	width: 1000px;
+	height: 600px;
+	background-size:100%;
+	background-image: cover;
+	border: 1px solid rgb(27,114,182);
+	margin: 30px;
+}
+
+.twitter-typeahead{ float:left; width:100%}
+
+.poster{
+	width: 100%;
+}
+.descriptionAttribute{
+	size: 4px;
+}
+
+#lightbox{
+	position: fixed;
+	top:0;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	z-index: 10;
+	display: none;
+	opacity: 0;
+	transition: all 0.8s ease;
+}
+
+#backdrop{
+	position: absolute;
+	top: 50%;
+	transform: translate(0%, -50%);
+	width: 90%;
+	left: 10%;
+	vertical-align: middle;
+}
+#gradient{
+	position: fixed;
+	top:0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 15;
+	background: black; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,1),rgba(0,0,0,.9),rgba(0,0,0,0.4),rgba(0,0,0,0)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(right, rgba(0,0,0,1),rgba(0,0,0,.9),rgba(0,0,0,0.4),rgba(0,0,0,0)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(right, rgba(0,0,0,1),rgba(0,0,0,.9),rgba(0,0,0,0.4),rgba(0,0,0,0)); /*Fx 3.6-15*/
+	background: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.9),rgba(0,0,0,0.4),rgba(0,0,0,0)); /*Standard*/
+}
+
+#closeLightbox{
+	position: fixed;
+	top: 40px;
+	right: 40px;
+	z-index: 20;
+	height: 50px;
+	width: 50px;
+}
+#closeLightbox:hover{
+	cursor: pointer;
+}
+#lightboxDescription{
+	font-weight: 300;
+	font-size: 20px;
+}
+#infoContainer{
+	position: fixed;
+	top: 150px;
+	left: 100px;
+	width: 500px;
+	z-index: 20;
+	color: white;
+}
+
+#traileriframe{
+	padding-top: 50px;
+	width: 500px;
+}
+
+.auto-resizable-iframe {
+  max-width: 420px;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.actorPictures{
+	padding: 20px 0;
+}
+.actorImage{
+	margin-right: 10px;
+	width: calc(calc(100% / 3) - 10px);
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#topMovies{
+	padding-top: 20px;
+	text-align: center;
+}
+
+#topMovies .col-lg-1{
+	padding: 0;
+	margin: 0;
+}
+.topPoster{
+	display: inline-block;
+	width: 100%;
+}
+
+.topPoster:hover{
+	cursor: pointer;
+}
+
+#iconImage{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 100px;
+}
