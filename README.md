@@ -1,4 +1,4 @@
-README.md
+# Recommend And Chill
 
 Team: Strawberry Jam
 Repo: Senior_Team29
@@ -36,3 +36,16 @@ DEMO: Start at front page
 		A list of 5 recommended movies should appear
 			Can click on movie to show more details
 			Information like Actors, description, link to trailer should appear
+			
+## User Interface
+Homepage:
+
+![alt text](https://i.imgur.com/eGm1jVH.png)
+
+Search Page:
+
+![alt text](https://i.imgur.com/xNpNvLA.png)
+
+Movie Info:
+
+![alt text](https://i.imgur.com/ciwDV7L.png)
